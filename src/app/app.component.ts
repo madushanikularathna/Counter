@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'counter';
+  public title = 'Click me !';
+  public count = 1;
+
+  /**  function */
+  public counter()  {
+    this.count += 1;
+  }
 }
